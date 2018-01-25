@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main() {
 	int minutes1, days, hours, minutes;
+	printf("---Start---\n"); 
 	printf("Enter computer working time: ");
 	scanf("%d", &minutes);
 	days = minutes/1440;
